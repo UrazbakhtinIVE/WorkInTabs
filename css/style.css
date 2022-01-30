@@ -1,0 +1,47 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tab__item.active{
+    display: block;
+}
+
+.tab__item{
+    display: none;
+}
+
+
+.content{
+    padding: 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.tabs__nav-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; /* цвет текста */
+    font-size: 18px;
+    border: none;
+    background: rgb(212,75,56); /* фон кнопки */
+    user-select: none; /* убирать выделение текста */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+
+.tabs__nav__btn:hover{
+    background: rgb(232,95,76); /* при наведении курсора мышки */
+}
+
+.tabs__nav-btn.active{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; /* цвет текста */
+    font-size: 18px;
+    border: none;
+    background: rgba(218, 3, 135, 0.767); /* фон кнопки */
+    user-select: none; /* убирать выделение текста */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; 
+}
